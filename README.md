@@ -12,10 +12,10 @@ Spring_instruction
         xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
         
-            <bean id="Injected" class="springIoc.Injected">
-                <property name="Depended" ref="Depended" />
+            <bean id="injected" class="springIoc.Injected">
+                <property name="depended" ref="depended" />
             </bean>
-            <bean id="Depended" class="springIoc.Depended" />
+            <bean id="depended" class="springIoc.Depended" />
         </beans>
         ```
     * 容器(掌管各个类的):  
