@@ -1,4 +1,4 @@
-package springIocAppcontext;
+package springIoc;
 
 public class Injected {
     private Depended depended;

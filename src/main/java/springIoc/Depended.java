@@ -1,4 +1,4 @@
-package springIocAppcontext;
+package springIoc;
 
 public class Depended {
     private String name="Depended";
